@@ -1,0 +1,306 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Curso 1.0\n"
+"POT-Creation-Date: 2020-12-22 12:09-0300\n"
+"PO-Revision-Date: 2020-12-22 12:52-0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _e;__;_x;_nx;esc_attr_x\n"
+"Last-Translator: Marcelo Vieira <marceloquinze@gmail.com>\n"
+"Language: pt_BR\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:12
+msgid "Page not found"
+msgstr "Página não encontrada"
+
+#: 404.php:13
+msgid "Unfortunately, the page you tried to reach does not exist on this site!"
+msgstr "Infelizmente, a página que você tentou acessar não existe neste site!"
+
+#: 404.php:17
+msgid "How about doing a search?"
+msgstr "Que tal fazer uma pesquisa?"
+
+#: 404.php:22
+msgid "Latest Posts"
+msgstr "Últimas Postagens"
+
+#: archive.php:33 index.php:29
+msgid "<< Newer posts"
+msgstr "<< Posts mais recentes"
+
+#: archive.php:36 index.php:32
+msgid "Older posts >>"
+msgstr "Posts Antigos  >>"
+
+#: archive.php:45 general-template.php:39 index.php:41
+msgid "There&rsquo;s nothing yet to be displayed..."
+msgstr "Ainda não há nada a ser exibido ..."
+
+#: comments.php:31
+#, php-format
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Um comentário sobre &ldquo;%s&rdquo;"
+
+#: comments.php:36
+#, php-format
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgstr "%1$s comentários sobre &ldquo;%2$s&rdquo;"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "Os comentários estão fechados."
+
+#: functions.php:20
+msgid "Main Menu"
+msgstr "Menu Principal"
+
+#: functions.php:21
+msgid "Footer Menu"
+msgstr "Menu de Rodapé"
+
+#: functions.php:48
+msgid "Home Page Sidebar"
+msgstr "Barra Lateral da Página Inicial"
+
+#: functions.php:50
+msgid "Sidebar to be used in Home Page"
+msgstr "Barra lateral a ser usada na Página Inicial"
+
+#: functions.php:60
+msgid "Blog Sidebar"
+msgstr "Barra Lateral da página Blog"
+
+#: functions.php:62
+msgid "Sidebar to be used in Blog Page"
+msgstr "Barra lateral a ser usada na página Blog"
+
+#: functions.php:72
+msgid "Services 1"
+msgstr "Serviços 1"
+
+#: functions.php:74
+msgid "First Services Area."
+msgstr "Primeira Área de Serviços."
+
+#: functions.php:84
+msgid "Services 2"
+msgstr "Serviços 2"
+
+#: functions.php:86
+msgid "Second Services Area."
+msgstr "Segunda Área de Serviços."
+
+#: functions.php:96
+msgid "Services 3"
+msgstr "Serviços 3"
+
+#: functions.php:98
+msgid "Third Services Area."
+msgstr "Terceira Área de Serviços."
+
+#: functions.php:108
+msgid "Social Icons"
+msgstr "Ícones de Mídias Sociais"
+
+#: functions.php:110
+msgid "Place your media icons here"
+msgstr "Coloque seus ícones de mídia aqui"
+
+#: inc/customizer.php:9 inc/customizer.php:26
+msgid "Copyright"
+msgstr "Copyright"
+
+#: inc/customizer.php:10
+msgid "Copyright Section"
+msgstr "Seção de Copyright"
+
+#: inc/customizer.php:18
+msgid "Copyright x - All rights reserved"
+msgstr "Copyright x - Todos os direitos reservados"
+
+#: inc/customizer.php:27
+msgid "Choose wether to show the Services section or not"
+msgstr "Escolha se deseja mostrar a seção Serviços ou não"
+
+#: inc/customizer.php:37
+msgid "Map"
+msgstr "Mapa"
+
+#: inc/customizer.php:38
+msgid "Map Section"
+msgstr "Seção do Mapa"
+
+#: inc/customizer.php:54
+msgid "API Key"
+msgstr "Chave de API"
+
+#: inc/customizer.php:56
+#, php-format
+msgid "Get your key <a target=\"_blank\" href=\"%s\">here</a>"
+msgstr "Obtenha sua chave <a target=\"_blank\" href=\"%s\">aqui</a>"
+
+#: inc/customizer.php:76
+msgid "Type your address here"
+msgstr "Digite seu endereço aqui"
+
+#: inc/customizer.php:77
+msgid "No special characters allowed"
+msgstr "Caracteres especiais não são permitidos"
+
+#: inc/customizer.php:87
+msgid "Slider"
+msgstr "Slider"
+
+#: inc/customizer.php:88
+msgid "Slider Section"
+msgstr "Seção do Slider"
+
+#: inc/customizer.php:104
+msgid "Choose your design type here"
+msgstr "Escolha seu tipo de design aqui"
+
+#: inc/customizer.php:105
+msgid "Choose your design type"
+msgstr "Escolha seu tipo de design"
+
+#: inc/customizer.php:109
+msgid "Design Type 1"
+msgstr "Tipo de Design 1"
+
+#: inc/customizer.php:110
+msgid "Design Type 2"
+msgstr "Tipo de Design 2"
+
+#: inc/customizer.php:111
+msgid "Design Type 3"
+msgstr "Tipo de Design 3"
+
+#: inc/customizer.php:112
+msgid "Design Type 4"
+msgstr "Tipo de Design 4"
+
+#: inc/customizer.php:129
+msgid "Number of posts to display"
+msgstr "Número de postagens a exibir"
+
+#: inc/customizer.php:130
+msgid "Choose the number of posts to be displayed"
+msgstr "Escolha o número de postagens a serem exibidas"
+
+#: inc/customizer.php:140
+msgid "Posts Loop"
+msgstr "Repetição de Postagens"
+
+#: inc/customizer.php:141
+msgid "Posts Loop Section"
+msgstr "Seção de Repetição de Postagens"
+
+#: inc/customizer.php:157
+msgid "First Loop: Posts per Loop"
+msgstr "Primeira Repetição: Postagens por Repetição"
+
+#: inc/customizer.php:158 inc/customizer.php:196
+msgid "Choose how many posts to show per loop"
+msgstr "Escolha quantas postagens exibir por repetição"
+
+#: inc/customizer.php:176
+msgid "First Loop: Shown Categories"
+msgstr "Primeira Repetição: Categorias Exibidas"
+
+#: inc/customizer.php:177 inc/customizer.php:215
+msgid ""
+"Enter here (separated by commas) the categories ID to be shown. Special "
+"characters are not allowed. Example: 1,2,3"
+msgstr ""
+"Entre aqui (separado por vírgulas) a ID das categorias a serem exibidas. "
+"Caracteres especiais não são permitidos. Exemplo: 1,2,3"
+
+#: inc/customizer.php:195
+msgid "Second Loop: Posts per Loop"
+msgstr "Segunda Repetição: Postagens por Repetição"
+
+#: inc/customizer.php:214
+msgid "Second Loop: Shown Categories"
+msgstr "Segunda Repetição: Categorias Exibidas"
+
+#: inc/customizer.php:233
+msgid "Second Loop: Hidden Categories"
+msgstr "Segunda Repetição: Categorias Escondidas"
+
+#: inc/customizer.php:234
+msgid ""
+"Enter here (separated by commas) the categories ID to be hidden. Special "
+"characters are not allowed. Example: 1,2,3"
+msgstr ""
+"Entre aqui (separado por vírgulas) a ID das categorias a serem escondidas. "
+"Caracteres especiais não são permitidos. Exemplo: 1,2,3"
+
+#: page-home.php:14
+msgid "Our Services"
+msgstr "Nossos Serviços"
+
+#: page-home.php:55
+msgid "Latest News"
+msgstr "Últimas Notícias"
+
+#: search.php:6
+msgid "Search results for:"
+msgstr "Resultados de busca por:"
+
+#: search.php:24
+msgid "Previous"
+msgstr "Anterior"
+
+#: search.php:25
+msgid "Next"
+msgstr "Próximo"
+
+#: searchform.php:13
+msgid "Search &hellip;"
+msgstr "Buscar &hellip;"
+
+#: searchform.php:15
+msgid "OK"
+msgstr "OK"
+
+#: template-parts/content-archive.php:5
+msgid "Published in "
+msgstr "Publicado em "
+
+#: template-parts/content-archive.php:5 template-parts/content-image.php:5
+#: template-parts/content-search.php:4 template-parts/content-secondary.php:8
+#: template-parts/content-video.php:5 template-parts/content.php:5
+msgid "by"
+msgstr "por"
+
+#: template-parts/content-archive.php:6 template-parts/content-featured.php:10
+#: template-parts/content-image.php:7 template-parts/content-search.php:8
+#: template-parts/content-secondary.php:10 template-parts/content-video.php:7
+#: template-parts/content.php:7
+msgid "Tags: "
+msgstr "Tags: "
+
+#: template-parts/content-featured.php:8
+msgid "by "
+msgstr "por "
+
+#: template-parts/content-featured.php:9 template-parts/content-secondary.php:9
+msgid "Categories: "
+msgstr "Categorias: "
+
+#: template-parts/content-image.php:5 template-parts/content-search.php:4
+#: template-parts/content-video.php:5 template-parts/content.php:5
+msgid "Published in"
+msgstr "Publicado em"
+
+#: template-parts/content-image.php:6 template-parts/content-search.php:6
+#: template-parts/content-video.php:6 template-parts/content.php:6
+msgid "Categories:"
+msgstr "Categorias:"

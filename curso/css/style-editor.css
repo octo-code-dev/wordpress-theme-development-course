@@ -1,0 +1,26 @@
+/* Main column width */
+.wp-block {
+    max-width: 800px;
+}
+ 
+/* Width of "wide" blocks */
+.wp-block[data-align="wide"] {
+    max-width: 1080px;
+}
+ 
+/* Width of "full-wide" blocks */
+.wp-block[data-align="full"] {
+    max-width: none;
+}
+
+/* Estilizando alguns elementos no backend */
+p {
+  font: 16px / 1.6 'Lato', sans-serif;
+  margin-top: 0;
+  margin-bottom: 1rem! important;
+}
+
+.editor-post-title__input {
+  font: 28px / 2.8 'Oswald', sans-serif;
+  margin: 15px 0 15px;
+}

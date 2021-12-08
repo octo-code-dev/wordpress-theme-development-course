@@ -1,0 +1,166 @@
+/************** FONTS *****************/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+
+/************** GENERAL *****************/
+
+body{ font: 16px/1.6 'Oswald', sans-serif;  }
+body p{ font: 16px/1.6 'Lato', sans-serif; }
+h1{ font-size: 28px; margin: 15px 0 15px; }
+h2{ font-size: 24px; margin-top: 0; }
+h3{ font-size: 20px; margin-top: 0; }
+h4{ font-size: 18px; margin-top: 0; }
+
+/************** HOME PAGE *****************/
+
+/* Top Bar Section */
+.top-bar{ background: #b9121b; color: #fff; padding: 15px 0; }
+
+/* Top Bar - Social Widgets */
+.social-media-icons ul{ padding: 0; margin: 0; }
+.social-media-icons ul li{ list-style: none; display: inline; margin: 0 5px 0; }
+
+/* Top Bar - Search */
+.search input[type="search"]{ color: #989898; background: #ededed; border: 0; padding: 3px 10px;}
+.search button{  background: #000; border: 0; color: #fff; padding: 3px 10px 4px; margin-left: -4px; }
+.search label{ margin: 0; }
+.search > form .screen-reader-text, .search-form .screen-reader-text { clip: unset; clip-path: unset; position: relative !important; }
+
+/* Align */
+.align{ display: flex; align-items: center; width: 100%; }
+
+/* Header - Main Menu */
+.menu-area{ background: #f3f3f3; padding: 15px 0; }
+.main-menu ul{ list-style: none; padding: 0; margin: 0; font-size: 28px; }
+.main-menu ul li{ display: inline;  margin: 0 50px 0 0;}
+.main-menu ul li:last-child{ margin: 0; }
+.main-menu ul li a{ text-transform: uppercase; color: #4c1b1b; text-decoration: none;}
+.main-menu ul  li.current-menu-item a{ color:#e58888; }
+
+/* Slider */
+.wppsac-post-slider .wppsac-post-image-bg { min-height: 700px; }
+.wppsac-post-content-left{ display: flex; align-items: center; }
+.wppsac-post-slider.design-2 .slick-dots li button { border: 0 !important; border-radius: 0 !important; width: 29px !important; height: 8px !important;}
+.wppsac-post-slider.design-2 .slick-dots li.slick-active button { background: #b9121b !important;}
+
+/* Services */
+.services{ background: #4c1b1b; padding: 25px 0; color: #fefefe; }
+.services h1{ text-align: center; color: #fcfae1; text-transform: uppercase; font-size: 38px; }
+.services .widget-wrapper{ text-align: center; }
+.services .widget-wrapper h2{ text-transform: uppercase; font-size: 1.2em; color: #f6e497; font-weight: 200; }
+.services .widget-wrapper:first-child{ padding: 15px 0; }
+.services .widget-wrapper > img{ border: 15px solid #FFF; }
+
+/* Middle Area */
+.middle-area{ padding: 25px 0; }
+.middle-area h1{ color: #4c1b1b; text-transform: uppercase;  }
+
+/* Middle Area - Sidebar */
+.sidebar{ background: #f6e497; padding: 35px; margin: 0 0 30px;  }
+.home .sidebar{ background: #201c0c; }
+.home .sidebar h2{ color: #ffffff; text-transform: uppercase; font-size: 38px; margin: 0 0 25px; }
+.home .sidebar p{ color: #c9c9c9; }
+
+/* Middle Area - Sidebar - Contact Form 7 */
+.home .wpcf7 input[type="text"], .home .wpcf7 input[type="email"], .home .wpcf7 textarea{ width: 100%; background: #fcfae1; border: 0; padding: 10px; color: #989898; }
+.home .wpcf7 input[type="submit"]{ background: #b9121b; border: 0; color: #ffffff; text-transform: uppercase; width: 100%; padding: 15px; }
+.home .wpcf7-validation-errors{ color: #ffffff; }
+
+/* Middle Area - Featured News */
+.home .news h1{ color: #4c1b1b; text-transform: uppercase; font-size: 38px; font-weight: bold; }
+.home .news .format-image h2, .home .news .format-video h2, .home .news .format-standard h2 { color: #000; background: transparent; display: inline-block; padding: 10px 0 5px; font-weight: bold; } 
+.home .news .featured h2{ font-size: 35px; }
+.home .news .secondary h2{ font-size: 20px; }
+.home .news .featured h2 a, .home .news .secondary h2 a{ color: #000; }
+.home .news .meta-info p{ font-weight: bold; margin-bottom: 0; }
+.home .news span, .news span a{ color: #9c9c9c; font-weight: normal; margin: 0 2px 0 0; }
+
+/* Map */
+.map iframe{ display: block; }
+
+/* Footer */
+footer{ background: #000; padding: 15px 0; color: #fcfae1; }
+
+/* Footer - Footer Menu */
+.footer-menu ul{ list-style: none; padding: 0; margin: 0; font-size: 20px; }
+.footer-menu ul li{ display: inline;  margin: 0 15px 0 0;}
+.footer-menu ul li:last-child{ margin: 0; }
+.footer-menu ul li a{ color: #fcfae1;  text-decoration: none;}
+.footer-menu ul  li.current-menu-item a{ color:#e58888; }
+
+/************** INNER PAGES *****************/
+
+/* Blog */
+.wp-post-image{ float: left; margin: 0 15px 10px 0; } 
+.blog embed, .blog iframe, .blog object, .blog video { margin-bottom: 1.6em; max-width: 100%; vertical-align: middle; } /* Deixa os vídeos responsivos */
+.blog article{ display: inline-block; margin: 0 0 30px; width: 100%; }
+.blog article h2{ margin-bottom: 15px; }
+.blog article h2 a{ color: #FFFFFF; }
+.blog article p > img{ width: 100%; height: auto; }
+.blog .meta-info p{ line-height: 1em; font-weight: bold; }
+.blog .meta-info p > a{ color: #9d9d9d; font-weight: normal; }
+
+/* Contact Page */
+.wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 textarea{ border: 1px solid #eeeeee; background: #f6f6f6; width: 100%; padding: 10px; }
+.wpcf7 input[type="submit"]{ background: #b9121b; border: 0; color: #ffffff; text-transform: uppercase; width: initial; adding: 15px; }
+
+/* Search Page */
+.search #main{ padding: 25px 0; }
+.search #main form{ margin: 20px 0; }
+.search article h2 a{ color: #000; }
+.search .format-image h2 a { color: #fff !important; }
+
+/************** MISCELLANEOUS *****************/
+
+/* Comments */
+.comment-respond{ margin: 30px 0; }
+.comment-respond label{ width: 100%; }
+#commentform input[type="submit"]{ background: #b9121b; border: 0; color: #ffffff; text-transform: uppercase; padding: 15px; }
+
+/* Post Formats */
+.format-image h2 { color: #fff !important; background: #717171; padding: 15px; }
+.format-video h2 { color: #fff !important; background: #211e1e; padding: 15px; }
+.format-standard h2 { color: #444 !important; background: #d2d2d2; padding: 15px; }
+
+/* Pagination */
+.blog .pages, .archive .pages, .single .pages{ margin-bottom: 40px; }
+.pagination{ display: block; }
+
+/* Gutenberg */
+@media only screen and (min-width: 1140px) {
+
+    .alignfull, .alignwide {
+        margin-bottom: 2em;
+    }
+    .alignwide {
+        width: 75vw;
+        margin-left: 50%; 
+        transform: translateX(-50%);
+    }
+    .alignfull {
+        width: 100vw;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .blog .alignfull {
+    	margin-left: 0;
+    	width: 100%;
+    	transform: initial;
+    }
+}
+
+.has-blood-red-background-color{
+	background-color: #b9121b;
+}
+.has-blood-red-color{
+	color: #b9121b;
+}
+.has-white-background-color{
+	background-color: #ffffff;
+}
+.has-white-color{
+	color: #ffffff;
+}
+
+
